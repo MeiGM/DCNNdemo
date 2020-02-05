@@ -1,0 +1,119 @@
+﻿body {
+	max-width: 375px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.header {
+	min-height: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.header h1 {
+	background: #3399ff;
+	border: solid #3399ff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #fff;
+}
+
+.info {
+	font-family: Helvetica;
+	margin: auto;
+	font-size: 0.9em;
+}
+
+#form {
+  	/*border: 1px solid #3CB371;*/
+	border-radius: 4px;
+	margin: auto;
+	/*max-height: 90%;*/
+	padding: 0;
+	max-width: 100%;
+	/*background: #E5F0E4;*/
+}
+
+.audio_container {
+	max-height: 90%;
+}
+
+.utterance {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #3399ff;
+}
+
+.utterance h2 {
+	font-family: Helvetica;
+	font-size: 1.0em;
+	padding: 2px;
+	min-height: 20px;
+	text-align: center;
+}
+
+.system {
+	display: flex;
+        flex-direction: column;
+	justify-content: center;
+	align-items: center;
+        justify-content: center;
+	width: 100%;
+	/*margin-top: 1.5%;*/
+	/*height: calc(100% * (1/9));*/
+	/*margin: 10px 0 5px 0;*/
+}
+
+
+.system audio {
+	display: inline-block:
+	text-align: center;
+	width: 70%;
+	min-height: 40px;
+	margin-left: 1%;
+	margin-right: 1%;
+	/*height: 40px;*/
+}
+
+.system h3 {
+	text-align: center;
+}
+
+.system select {
+	width: 15%;
+	min-height: 40px;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.comments {
+	width: 100%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.comments textarea {
+	margin-top: 20px;
+	width: 90%;
+	height: 40%;
+	margin-bottom: 3px;
+}
+
+.comments input {
+	min-height: 40px;
+	width: 90%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+
+.comments select {
+	min-height: 40px;
+	width: 45%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
